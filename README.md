@@ -30,6 +30,6 @@ The programs reads from standard input. You must enter the board position by usi
  
  ## Comments
  
-  - The porgram doesn't necessarily find the shortest possible solution.
+  - The program doesn't necessarily find the shortest possible solution.
   - The numbers mentioned in the program output are the sequence numbers of the distinct board positions. This may not be equal to the number of moves, depending on the definition of a move. (eg: Moving the same piece twice is sometimes considered a single move).
   - The program assumes that the dimensions of the board are 5x4. I believe the program should work for other dimensions too, by changing the constants on lines 12 and 13. Though it would take longer to solve larger boards.
